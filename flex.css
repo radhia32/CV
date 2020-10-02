@@ -1,0 +1,355 @@
+
+/*FONTS*/
+@font-face {
+  font-family: 'AmbleRegular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/Amble-Regular.ttf') format('ttf');
+}
+  
+@font-face {
+  font-family: 'AmbleBold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/Amble-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'AmbleLight';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/Amble-Light.ttf') format('ttf');
+}
+
+/*CORPS DE PAGE*/
+body
+{
+    font-family: 'fonts/Amble-Bold',
+    background-color: white;
+    margin: 0 auto 0 auto;
+}
+
+/*TETE DE PAGE*/
+header
+{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+  
+.photo_cv 
+{
+    width: 33%;
+    height: 326px;
+    background-color:#feca04;
+    text-align: center;
+}
+
+.photo_cv img
+{
+    border-radius: 50%;
+    border: 4px solid rgba(0, 0, 0, 0.5);
+    margin-top: 68px;
+}
+
+.nom_cv
+{
+    width: 67%;
+    height: 209px;
+    padding: 117px 65px 0px 65px;
+    background-color: white;
+}
+
+h1
+{
+    color: #feca04;
+    font-size: 44px;
+}
+
+.color_nom
+{
+    color: black;
+    font-weight: lighter;
+}
+
+h2
+{
+    font-size: 20px;
+}
+
+.color_border{
+    border-bottom: 2px #feca04 solid;
+}
+
+
+/*CONTENEUR PRINCIPAL */
+main
+{
+    width:1200px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+/*MENU DE GAUCHE*/
+aside
+{
+    width: 33%;
+    background-color: #feca04;
+    text-align: center;
+    position: relative;
+}
+
+.title_menu
+{
+    background-color: red;
+    color: #feca04;
+    height: 48px;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+.gras
+{
+    font-weight: bold;
+}
+
+.contact, .apropos 
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact p
+{
+    text-align: left;
+}
+
+.contact a, 
+{
+    color:black;
+    text-decoration: none;
+
+}
+
+.contact a:hover
+{
+    color:black;
+    text-decoration: underline;
+}
+
+.apropos p
+{
+    text-align: justify;
+}
+
+#div_loisir
+{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+
+.loisir
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ico_loisir
+{
+    margin-right: 0px;
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*CONTENU DE LA PAGE*/
+article
+{
+    width: 67%;
+    padding: 0 65px 65px 65px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.title_article
+{
+    height: 50px;
+    text-transform: uppercase;
+    border-bottom: 2px #feca04 solid;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.icon_title
+{
+    color:#feca04;
+    margin-right: 18px;
+    font-size: 30px;
+}
+
+.formation, .expe_pro
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.date_formation, .date_expe_pro
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-weight: bold;
+    font-size: 1em; 
+}
+
+.detail_formation, .detail_expe_pro
+{
+    padding-left: 20px;
+    width:70%;
+}
+
+.recomm
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dot_circle
+{
+    color: #feca04;
+    font-size: 20px;
+    margin-right: 18px;
+}
+
+.circle
+{
+    color:#feca04;
+    font-size: 15px;
+    margin-right: 23px;
+}
+
+
+/* règles au format responsive avec les media queries */
+@media all and (max-width: 900px)
+{
+  body{
+    margin: 0;
+  }
+
+  header
+  {
+    width: auto;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  h2
+  {
+    height: auto;
+  }
+
+  main
+  {
+    flex-direction: column;
+    width: auto;
+    margin: auto;
+  }
+
+  aside
+  {
+    width: auto;
+    margin: auto;
+  }
+
+  .apropos, .contact, .loisir
+  {
+    padding: 30px;
+  }
+
+  .contact p
+  {
+    text-align: center;
+  }
+  
+  #div_loisir
+  {
+    position: relative;
+  }
+
+  article
+  {
+    width: auto;
+    height:auto;
+    margin: auto;
+    padding: 15px;
+  }
+
+  .title_menu
+  {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+
+  .title_article
+  {
+    justify-content: center;
+  }
+
+  .formation, .expe_pro
+  {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .detail_formation, .detail_expe_pro
+  {
+    width: auto;
+    padding: 0 15px;
+  }
+  
+  .recomm
+  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 500px)
+{
+ .title_article h2
+ {
+    font-size: 19px;
+ }
+
+ .icon_title
+ {
+    display: none;
+ }  
+  
+}
+
+
+
