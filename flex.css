@@ -1,30 +1,27 @@
 
 /*FONTS*/
 @font-face {
-  font-family: 'AmbleRegular';
-  font-style: normal;
+  font-family: 'Amble';
   font-weight: normal;
-  src: url('fonts/Amble-Regular.ttf') format('ttf');
+  src: url('amble/Amble-Regular.ttf') format('ttf');
 }
   
 @font-face {
-  font-family: 'AmbleBold';
-  font-style: normal;
-  font-weight: normal;
-  src: url('fonts/Amble-Bold.ttf') format('ttf');
+  font-family: 'Amble';
+  font-weight: bolder;
+  src: url('amble/Amble-Bold.ttf') format('ttf');
 }
 
 @font-face {
-  font-family: 'AmbleLight';
-  font-style: normal;
-  font-weight: normal;
-  src: url('fonts/Amble-Light.ttf') format('ttf');
+  font-family: 'Amble';
+  font-weight: lighter;
+  src: url('amble/Amble-Light.ttf') format('ttf');
 }
 
 /*CORPS DE PAGE*/
 body
 {
-    font-family: 'fonts/Amble-Bold',
+    font-family: 'Amble';
     background-color: white;
     margin: 0 auto 0 auto;
 }
