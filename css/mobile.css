@@ -39,13 +39,15 @@ width: 100%;
 .formation, 
 .expe_pro{
 
-    display: flex;
-    flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .date_formation, 
 .date_expe_pro{
 
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -55,6 +57,7 @@ width: 100%;
 #formation,
 #expérience_professionnelles {
 
+  width: 100%;
   margin-bottom: 0 0 0 0;
   
 }
@@ -62,7 +65,7 @@ width: 100%;
 .recomm
 {
    flex-wrap: wrap;
-    
+   width:100%; 
 }
 
 }
