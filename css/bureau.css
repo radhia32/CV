@@ -3,19 +3,19 @@
 @font-face {
   font-family: 'Amble';
   font-weight: 700;
-  src: url('amble/Amble-Regular.ttf')format('truetype');
+  src: url('../amble/Amble-Regular.ttf')format('truetype');
 }
   
 @font-face {
   font-family: 'Amble';
   font-weight: 900;
-  src: url('amble/Amble-Bold.ttf')format('truetype');
+  src: url('../amble/Amble-Bold.ttf')format('truetype');
 }
 
 @font-face {
   font-family: 'Amble';
   font-weight: 500;
-  src: url('amble/Amble-Light.ttf')format('truetype');
+  src: url('../amble/Amble-Light.ttf')format('truetype');
 }
 
 *{
