@@ -6,6 +6,8 @@ Vous venez de vous lancer en tant que développeur web freelance et un client po
 
 Pour éviter de payer un serveur, vous décidez d’héberger votre site sur GitHub Pages. Vous créez donc immédiatement un compte pour tester ce service. Satisfait de la simplicité du processus, vous faites encore quelques recherches sur les critères d’un bon CV en ligne, et choisissez finalement ce modèle :
 
+
+
 Maquette CV
 
 Votre site doit être accessible en toutes circonstances, depuis n’importe quel appareil, donc assurez-vous d’avoir un affichage responsive, qui s’adapte à la fois aux ordinateurs et aux mobiles.
