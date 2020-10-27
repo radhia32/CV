@@ -6,7 +6,7 @@ Vous venez de vous lancer en tant que développeur web freelance et un client po
 
 Pour éviter de payer un serveur, vous décidez d’héberger votre site sur GitHub Pages. Vous créez donc immédiatement un compte pour tester ce service. Satisfait de la simplicité du processus, vous faites encore quelques recherches sur les critères d’un bon CV en ligne, et choisissez finalement ce modèle :
 
-
+![Maquette CV](https://radhia32.github.io/maquettecv.png)
 Maquette CV https://radhia32.github.io/cv/maquettecv.png
 
 
